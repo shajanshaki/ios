@@ -1,0 +1,25 @@
+
+Apply build.json - release configuration with below details:
+==================================================================
+
+"codeSignIdentity": "iPhone Distribution", 
+	"iPhone Distribution", or ""iPhone Developer"
+
+"developmentTeam": "K2TN8NSB54",
+
+"packageType": "enterprise",
+	Apply any of the package types: 
+	"development (the default), enterprise, ad-hoc, app-store"
+
+"provisioningProfile":"brillio_de_inhouse_distribution_prov_profile"
+
+Note:
+Make sure having proper package name or bundle id in config.xml
+
+Command:
+cordova build ios --device --release
+
+
+Ref:
+https://cordova.apache.org/docs/en/latest/guide/platforms/ios/
+

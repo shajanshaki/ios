@@ -1,0 +1,10 @@
+{
+    "ios": {
+        "release": {
+            "codeSignIdentity": "iPhone Distribution",
+            "developmentTeam": "K2TN8NSB54",
+            "packageType": "enterprise",
+"provisioningProfile":"brillio_de_inhouse_distribution_prov_profile"
+        }
+    }
+}

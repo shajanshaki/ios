@@ -1,0 +1,16 @@
+{
+    "ios": {
+	"debug": {
+            "codeSignIdentity": "iPhone Developer",
+            "developmentTeam": "K2TN8NSB54",
+            "packageType": "development",
+	    "provisioningProfile":"xxxxx"
+        },
+        "release": {
+            "codeSignIdentity": "iPhone Distribution",
+            "developmentTeam": "K2TN8NSB54",
+            "packageType": "enterprise",
+	    "provisioningProfile":"brillio_de_inhouse_distribution_prov_profile"
+        }
+    }
+}
