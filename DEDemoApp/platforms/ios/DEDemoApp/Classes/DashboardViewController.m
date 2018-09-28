@@ -25,9 +25,9 @@
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "DashboardViewController.h"
 
-@implementation MainViewController
+@implementation DashboardViewController
 
 - (id)initWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)nibBundleOrNil
 {
@@ -114,37 +114,5 @@
     return [super shouldAutorotate];
 }
 */
-
-@end
-
-@implementation MainCommandDelegate
-
-/* To override the methods, uncomment the line in the init function(s)
-   in MainViewController.m
- */
-
-#pragma mark CDVCommandDelegate implementation
-
-- (id)getCommandInstance:(NSString*)className
-{
-    return [super getCommandInstance:className];
-}
-
-- (NSString*)pathForResource:(NSString*)resourcepath
-{
-    return [super pathForResource:resourcepath];
-}
-
-@end
-
-@implementation MainCommandQueue
-
-/* To override, uncomment the line in the init function(s)
-   in MainViewController.m
- */
-- (BOOL)execute:(CDVInvokedUrlCommand*)command
-{
-    return [super execute:command];
-}
 
 @end
